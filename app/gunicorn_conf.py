@@ -13,4 +13,4 @@ worker_class = 'uvicorn.workers.UvicornWorker'
 # Logging Options
 loglevel = 'debug'
 accesslog = bind_path + "/access_log"
-errorlog = bind_path + "/home/demo/fastapi_demo/error_log"
+errorlog = bind_path + "/error_log"
