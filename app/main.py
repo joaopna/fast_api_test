@@ -13,7 +13,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World", "stage": "test"}
+    return {"message": "Hello World", "stage": "staging", "other_message": "finally ok!"}
 
 
 @app.get("/fibonacci/{n}")
